@@ -1,23 +1,20 @@
-//for milkcocoa form submit
-$(function () {
-  var $submitBtn = $('#submitBtn');
+window.addEventListener('load', function () {
+  var contactForm = document.getElementById('contactForm')    
   var milkform = new MilkForm('catip5mi4vk', function(isSupported){
     // ロード完了時処理を書きたい場合はここ
     // isSupportedにはMilkcocoaにブラウザが対応しているかが帰ってくるので
     // milkform-fallbackを使わずに、サポートの有無に応じてこちらに自由に処理を書くことも出来ます
   });
-
   milkform.onSuccess(function(datum){
     //送信成功時処理を書きたい場合はここ
-
+      contactForm.innerHTML = "hi hello success"
   });
   milkform.onFailure(function(error){
     //送信失敗時処理を書きたい場合はここ
   });
-
-  $submitBtn.click(function () {
-    // ここにバリデーションとか
     
+  contactForm.addEventListener('submit', function () {
+    // ここにバリデーションとか
     milkform.submit();
   });
 });
@@ -29,3 +26,5 @@ $(function () {
 $('#name').focus(function() {
     $('#success').html('');
 });
+
+//泥臭くvalidation書いて、
