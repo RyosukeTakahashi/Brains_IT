@@ -7,7 +7,9 @@ window.addEventListener('load', function () {
   });
   milkform.onSuccess(function(datum){
     //送信成功時処理を書きたい場合はここ
-      contactForm.innerHTML = "hi hello success"
+//      alert("お問い合わせありがとうございます。\nメールが送信されました。")
+      
+      $("#modal-example").modal("show");
   });
   milkform.onFailure(function(error){
     //送信失敗時処理を書きたい場合はここ
