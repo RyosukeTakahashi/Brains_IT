@@ -811,3 +811,8 @@ body {
 .modal .modal-dialog {
   margin-top: 35%;
 }
+@media (max-width: 320px) {
+  section h1.section-subheading {
+    font-size: 12px;
+  }
+}
