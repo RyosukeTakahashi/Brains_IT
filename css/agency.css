@@ -555,6 +555,9 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
+#calender02{
+  text-align: center;
+}
 section#contact {
   background-color: #222222;
   background-image: url('../img/map-image.png');
@@ -818,4 +821,11 @@ body {
 }
 .netlify-logo {
   margin-top: 20px;
+}
+
+
+
+
+#calender02{
+  text-align: center;
 }
