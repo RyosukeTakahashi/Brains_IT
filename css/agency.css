@@ -824,3 +824,18 @@ body {
 .netlify-logo {
   margin-top: 20px;
 }
+
+.nav-font{
+  font-size: 12px ;
+}
+
+
+.nav li a{
+  padding: 8px ;
+  margin-top: 6px ;
+}
+
+.navbar-brand{
+  padding: 15px 13px ;
+}
+
