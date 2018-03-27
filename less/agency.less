@@ -834,7 +834,31 @@ body {
   margin-top: 20px;
 }
 
-.googlecal{
+
+
+.googlecal {
   text-align: center;
+  position: relative;
+  padding-bottom: 100%; /* 縦横比 */
+  height: 0;
+  overflow: hidden;
 }
+.googlecal iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  /* 画面幅が600px以上の場合の縦横比の指定 */
+  .googlecal {
+    padding-bottom: 75%;
+  }
+}
+
+
 
