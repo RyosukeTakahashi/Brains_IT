@@ -344,7 +344,7 @@ section h3.section-subheading {
   display: block;
   position: relative;
   max-width: 400px;
-  max-height: 210px;
+  max-height: 190px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -789,7 +789,7 @@ body {
   display: block;
   position: relative;
   max-width: 400px;
-  max-height: 210px;
+  max-height: 190px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -872,4 +872,3 @@ body {
 .navbar-brand{
   padding: 15px 13px ;
 }
-
