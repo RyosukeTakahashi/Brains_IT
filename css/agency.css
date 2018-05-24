@@ -650,11 +650,14 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 
-#contact_form {
+#contact_form .container {
   width: auto;
-  height: 150px;
-  margin-bottom: 100px;
+  height: 200px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #CCCCCC;
 }
+
 #contact_form .imageCenter {
   text-align: center;
   border-bottom: 1px dotted #CCCCCC;
@@ -667,7 +670,7 @@ section#contact .text-danger {
   font-weight: bold;
   text-decoration: none;
   color: #FFFFFF;
-  background-color: #bbbbbb;
+  background-color: #fed136;
   padding: 10px 20px;
   border-radius: 5px;
 }
