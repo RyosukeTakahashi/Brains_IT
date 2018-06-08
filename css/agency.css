@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 .googlecal iframe {
-  position:absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100% !important;
@@ -34,11 +34,9 @@
 
 html {
   overflow: auto;
-  width: : 100%;
 }
 body {
   overflow-x: hidden;
-  position: relative;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
@@ -267,7 +265,6 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
-  width: auto;
 }
 header .intro-text {
   padding-top: 100px;
